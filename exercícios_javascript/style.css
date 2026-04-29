@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #f5f5f5;
+    color: #222;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    background: pink;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+p{
+    display: inline-block;
+}
+
+#cor{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+#texto_1,
+#texto_2{
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#texto_1{
+    margin-left: 0px;
+}
+
+#texto_2{
+    margin-left: 2px;
+}
+
+#texto_2 + button{
+    display: inline-block;
+    margin-left: 0px;
+}
+
+#num2{
+    margin-right: 0px;
+}
+
+#num2 + br,
+#num2 + br + br{
+    display: none;
+}
+
+label,
+#resultado,
+#resultado + button{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+label{
+    margin-left: 0px;
+}
+
+#resultado{
+    margin: 0 1px;
+}
+
+#primeiro_texto,
+#segundo_texto,
+#terceiro_texto{
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+#primeiro_texto{
+    margin-left: 1px;
+}
+
+#segundo_texto{
+    margin-left: 1px;
+}
+
+#terceiro_texto{
+    margin-left: 2px;
+}
+
+#terceiro_texto + button{
+    display: inline-block;
+    margin-left: 0px;
+}
+
+#div_1,
+#div_2{
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 0px;
+    margin: 0;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 0px;
+}
+
+#div_2{
+    margin-left: 2px;
+}
+
+#div_2 + button{
+    vertical-align: middle;
+    margin-left: 0px;
+}
