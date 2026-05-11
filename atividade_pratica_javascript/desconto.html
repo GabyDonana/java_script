@@ -1,0 +1,78 @@
+
+    <!DOCTYPE html>
+
+    <html lang = "pt-br">
+
+    <head>
+
+        <meta charset = "UTF-8">
+
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+        <title> Atividade Prática - JavaScript </title>
+
+        <link rel = "stylesheet" href = "style.css">
+
+    </head>
+
+    <body>
+    
+        <header>
+
+            <h1 class = "logo"> System Login </h1>
+
+                <nav>
+
+                    <a href = "index.html"> Home </a>
+
+                    <a href = "idade.html"> Age </a>
+
+                    <a href = "login.html"> Login </a>
+
+                    <a href = "desconto.html"> Discount </a>
+
+                    <a href = "avaliacao.html"> Evaluation </a>
+                    
+                </nav>
+
+        </header>
+
+
+        <main>
+
+            <br>
+            <br>
+
+            <h2> Calculadora de Desconto </h2>
+
+            <div class="quadrado">
+
+                <label> <p> Valor da Compra (R$): </p> </label>
+                <input type = "number" id = "valorCompra" step = "0.01">
+
+                <label> <p> É cliente VIP? </p> </label>
+                <select id = "isVip">
+                <option value = "nao"> Não </option>
+                <option value = "sim"> Sim </option>
+                </select>
+
+                <label> <p> Possui cupom de desconto? </p></label>
+                <select id = "temCupom">
+                <option value = "nao"> Não </option>
+                <option value = "sim"> Sim </option>
+                </select>
+    
+                button onclick = "calcularDesconto()"> Calcular Total </button>
+
+                <h3 id = "resultado"></h3>
+
+            </div>
+
+        </main>
+
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,146 @@
+body{
+
+    margin: 0;
+    background-color: #3d3d3d;
+
+}
+
+.logo{
+
+    text-align: center;
+    font-size: 70px;
+    color: #000000;
+    letter-spacing: 3px;
+    text-shadow:
+    0 0 5px #ffffff,
+    0 0 15px #ffffff;
+    margin: 0;
+    background-color: #7e7e7e;
+    border: 10px;
+    padding: 20px;
+    width: 100%;
+
+
+}
+
+nav{
+
+    display: flex;
+    gap: 25px;
+    background-color: #555555;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+    font-size: 25px;
+
+    
+}
+
+nav a{
+
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+img{
+
+    width:60%;
+    height: 653px;
+    margin-left: 60px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+    -webkit-mask-image: linear-gradient(to right, black 75%, transparent);
+    mask-image: linear-gradient(to right, black 75%, transparent);
+
+}
+
+.textinho h2{
+
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: #000000;
+    letter-spacing: 3px;
+    text-shadow:
+    0 0 5px #ffffff,
+    0 0 15px #ffffff;
+
+}
+
+.textinho{
+
+    color: white;
+    width: 500px;
+    margin-left: 70%;
+    margin-top: -500px;
+
+}
+
+h2{
+
+    color: #000000;
+    letter-spacing: 3px;
+    text-shadow:
+    0 0 5px #ffffff,
+    0 0 15px #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+
+input, select {
+
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    box-sizing: border-box; 
+    color: white;
+
+}
+
+button {
+
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    
+    font-weight: bold;
+    transition: background 0.3s;
+
+}
+
+button:hover {
+
+    background-color: #000000;
+
+}
+
+#resultado, #mensagem, #resultadoAvaliacao {
+
+    margin-top: 15px;
+    font-weight: bold;
+    min-height: 20px;
+
+}
+
+p{
+
+    color: white;
+
+}
+
+.quadrado{
+    justify-self: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50%;
+}
