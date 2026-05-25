@@ -1,0 +1,99 @@
+body{
+    background-color: #fcbfde;
+    font-family: 'Fira Code', monospace;
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-align: justify;
+}
+
+header{
+    background-color: aliceblue;
+    border: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    background-color: #f3c8de;
+    border-radius: 20px;
+    border: 5px;
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    color: #fcbfde;
+    background-color: black;
+    width: 8%;
+    border-radius: 12px;
+}
+
+main {
+    text-align: justify;
+    padding: 20px;
+}
+
+h2{
+    justify-content: center;
+    text-align: center;
+}
+
+.lista{
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 20px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.fundo{
+    font-family: 'Fira Code', monospace;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.centralizamento{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.centralizamento ul {
+    text-align: center;
+    text-align: justify;
+}
+
+footer{
+    background-color: aliceblue;
+    border: 5px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
